@@ -1,0 +1,147 @@
+body {
+  margin-top: 0%;
+  padding: 0%;
+}
+
+.container {
+  display: flex;
+  background-color: aquamarine;
+  margin: 0;
+}
+header h1 {
+  margin-right: 340px;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+header nav ul li a {
+  color: black;
+
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+header nav ul li a:hover {
+  background-color: wheat;
+}
+
+.btm {
+  margin-left: 830px;
+  border-radius: 10px;
+}
+
+.backsection {
+  position: relative;
+  background: url(/unit-3/sprint-3/evaluation/carousel-1.jpg);
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: rgb(0, 56, 139);
+  font-weight: 600;
+  font-size: 25px;
+}
+.p2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: rgb(5, 4, 63);
+  font-size: 50px;
+}
+.p3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(12, 19, 119);
+}
+
+.ticket {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 600px;
+}
+
+.section2 {
+  background: url(/unit-3/sprint-3/evaluation/carousel-1.jpg);
+}
+.section2 > p {
+  text-align: center;
+}
+.p4 {
+  color: rgb(8, 145, 99);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.p5 {
+  color: rgb(6, 70, 49);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.p6 {
+  color: rgb(2, 2, 2);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.boxx {
+  margin-top: 180px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.pp {
+  color: rgb(0, 26, 17);
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.pp1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+footer {
+  background: #45533c;
+  color: #fff;
+  padding: 3rem 0;
+  position: relative;
+}
+.foot-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.foot-container > div {
+  flex: 1;
+}

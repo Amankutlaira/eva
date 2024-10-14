@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(99, 126, 165, 0.815);
+}
+
+.product-container > {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.product-card {
+  width: 300px;
+  background-color: white;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid rgb(158, 158, 201);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.price {
+  font-weight: 450;
+  color: rgb(0, 0, 0);
+}
+.stake-price {
+  font-size: 1em;
+  font-weight: 450;
+}
